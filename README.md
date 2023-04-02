@@ -7,7 +7,7 @@ Final project for SI568
     - What is your timeline?
     - What’s your ultimate goal?
     - Using parameters such as the responses generated from the questions above, I want to use ChatGPT to create an action plan. This plan can contain a calendar of sub-goals and when you want to accomplish each goal, tools you can use throughout, ways to measure your success, detailed steps, a holistic calendar overview of the course of your journey, and other details that are organized in one document you can pull down and have for your personal use.
-2. How I would use ChatGPT: 
+2. How I would use ChatGPT:
     - The API lets you input a series of requests, and gives you responses in the form of a dictionary that you can use to get the response to each prompt. Using this, we can put in several queries and save all the responses in some data structure in Python.
     - We can use all of these responses to build a visually appealing document, and give the user the option to preview and/or save the document. Hopefully, from there, they will have access to a guide that will help them reach their goals.
     - After previewing the document, we can ask the user if it’s sufficient, and if it isn’t we can ask additional questions about what we can do to make the document more useful for them.

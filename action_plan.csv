@@ -1,0 +1,13 @@
+Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private
+Create a study plan,2023-04-02,09:00:00,2023-04-02,11:00:00,False,Create a study plan that covers all the topics I want to understand and schedule time for review and practice problems.,,True
+Review matrix operations,2023-04-03,09:00:00,2023-04-03,12:00:00,False,"Review basic matrix operations such as addition, subtraction, multiplication, and transposition. Practice problems from the textbook and lecture notes.",,True
+Learn row reduction,2023-04-04,09:00:00,2023-04-04,12:00:00,False,Learn how to use row reduction to solve systems of linear equations. Practice problems from the textbook and lecture notes.,,True
+Practice eigenvalues and eigenvectors,2023-04-07,09:00:00,2023-04-07,12:00:00,False,Practice identifying eigenvalues and eigenvectors of matrices. Learn how to use them in matrix diagonalization. Practice problems from the textbook and lecture notes.,,True
+Study SVD,2023-04-11,09:00:00,2023-04-11,12:00:00,False,Learn how to use singular value decomposition (SVD) to analyze data. Practice problems from the textbook and lecture notes.,,True
+Learn PCA,2023-04-16,09:00:00,2023-04-16,12:00:00,False,Learn how to use principal component analysis (PCA) to reduce the dimensionality of data. Practice problems from the textbook and lecture notes.,,True
+Review all topics,2023-04-20,09:00:00,2023-04-20,12:00:00,False,Review all the topics I have covered so far and practice problems from the textbook and lecture notes. Identify any areas that need more practice or clarification.,,True
+Take a practice exam,2023-04-23,09:00:00,2023-04-23,12:00:00,False,Take a practice exam to assess my understanding of the material and identify any areas that need more work.,,True
+Review weak areas,2023-04-24,09:00:00,2023-04-24,12:00:00,False,Review areas that I identified as needing more practice or clarification. Practice problems from the textbook and lecture notes.,,True
+Review everything again,2023-04-26,09:00:00,2023-04-26,12:00:00,False,Review all the topics again and practice problems from the textbook and lecture notes. Try to focus on understanding the concepts rather than memorization.,,True
+Take a break,2023-04-28,00:00:00,2023-04-28,23:59:59,True,Take a day off to rest and recharge.,,True
+Take the final exam,2023-05-01,09:00:00,2023-05-01,12:00:00,False,Take the final exam and apply everything I have learned.,,True
