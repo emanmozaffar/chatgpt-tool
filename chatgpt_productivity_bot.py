@@ -2,16 +2,29 @@ import openai
 import datetime
 import csv
 
+# Author: Eman Mozaffar (mozaffar)
+# Document contains functions used in script to generate action plan for
+# user, by using ChatGPT's API and chatbot functionalities.
+# For more information, please refer to the README document located in
+# this repository.
+
 # Use key to access API
 openai.api_key = open("key.txt", "r").read().strip('\n')
 
-# TODO: Set up appropriate context for bot
-# TODO: Set up script to take in user input to let bot create project plan
-# (What is the timeline? What subject do you want to master? What do you want to focus on?)
-# TODO: Save contents of project plan into .doc and .CSV files
-# CSV file should be importable into Google Calendar, .doc file for personal use
-
 def generate_action_plan(prompt):
+    """
+    Generate an action plan using OpenAI API based on the given prompt.
+
+    Parameters
+    ----------
+    prompt : str
+        The prompt for generating the action plan.
+
+    Returns
+    -------
+    str
+        The generated action plan as a string.
+    """
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[{"role" : "user",
@@ -21,6 +34,16 @@ def generate_action_plan(prompt):
     return response.choices[0].message.content
 
 def save_to_csv(action_plan, file_name):
+    """
+    Save the action plan to a CSV file.
+
+    Parameters
+    ----------
+    action_plan : list of dict
+        The action plan as a list of dictionaries, each representing a step with the required fields.
+    file_name : str
+        The name of the CSV file to save the action plan.
+    """
     with open(file_name, "w", newline="") as csvfile:
         fieldnames = ["Subject", "Start Date", "Start Time", "End Date", "End Time", "All Day Event", "Description", "Location", "Private"]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)

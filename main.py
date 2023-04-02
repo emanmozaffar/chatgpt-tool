@@ -1,6 +1,27 @@
 from chatgpt_productivity_bot import *
 
+# Author: Eman Mozaffar (mozaffar)
+# Main file including script for user inputs and CSV file as outputs.
+# Uses functions defined in chatgpt_productivity_bot.py.
+# For more information, please refer to the README document located in
+# this repository.
+
 def main():
+    """
+    Main function to execute the script. Takes in user input
+    and returns prompts based on previous inputs. Allows the user
+    to ask for an action plan based on their goals and timelines, and
+    gives them the option to save the file in a CSV format in order to
+    import the tasks as Google Calendar events.
+
+    Parameters
+    ----------
+    User input in terminal.
+
+    Returns
+    -------
+    None
+    """
     goal = input("Enter your goal: ")
     timeline_str = input("Enter the timeline to complete your goal (in days): ")
     details = input("Enter some details about what you want to accomplish: ")
