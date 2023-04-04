@@ -1,0 +1,37 @@
+REQUIREMENTS
+
+Developer Guide for Running and Updating Software
+
+File Structure:
+README.md: Contains information on the project purpose, along with user guide.
+chatgpt_productivity_bot.py: Python file containing functions used in main script, and libraries needed.
+main.py: Script for user to run and use tool.
+
+-chatgpt_productivity_bot.py uses a key to access the OpenAI API from an ignored file, key.txt. Please load
+your file replacement to access the API. In addition, ensure all libraries specified at the top of the file
+are installed in your environment. (openai, datetime, csv)
+-OpenAI API: https://platform.openai.com/docs/introduction
+-All functions have detailed docstrings that explain how each function works. For both functions defined in
+chatgpt_productivity_bot.py, the major potential changes would be either to add additional features or
+parameters, or to update the API calls if anything changes with how they work. OpenAI is a relatively newly
+available API, so the way responses are retrieved may change. In addition, the version of ChatGPT might
+change - currently the program is using 3.5-turbo, but updates are expected and might want to be used, because
+the model will improve over time.
+-Refer to Google Calendar documentation: https://support.google.com/calendar/answer/37118?hl=en&co=GENIE.Platform%3DDesktop
+This will allow the developer to understand the second function, save_to_csv, and the fields needed in the CSV.
+
+-main.py: consists of one function that is called in main as the script, after importing all necessary functions/libraries.
+-The script uses a while loop to gather inputs, until all inputs are valid, and will continue requesting inputs from
+the user until these requirements are met.
+-The script then formats all user responses into an appropriate prompt to give ChatGPT. Then, the generate_action_plan
+function is called, which will gather the responses from ChatGPT. The subject, start date, and end date of each task
+in the plan are printed in the terminal.
+-The program will then ask the user if they want to save a file locally containing the information. Again, a while loop
+will be used to ensure the user provides a valid input to this question. If the user responds with 'yes', the user will
+provide a valid filename, and the file will be saved locally for the user to use.
+
+-Change Management: Any changes to the program must be properly documented and outlined. Make
+sure docstrings are updated and are in Numpy format. Leave comments explaining any noteworthy
+choices that are not apparent. Update README and requirements files as necessary.
+-In order to run and test the file, ensure all above files are saved in the same environment,
+and ensure the openai, datetime, and csv modules are loaded.

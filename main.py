@@ -16,11 +16,11 @@ def main():
 
     Parameters
     ----------
-    User input in terminal.
+    None. User input is requested in terminal prompts.
 
     Returns
     -------
-    None
+    None. CSV file is saved locally, if prompted.
     """
     while True:
         goal = input("Enter your goal: ")
