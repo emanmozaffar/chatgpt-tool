@@ -6,6 +6,7 @@ File Structure:
 README.md: Contains information on the project purpose, along with user guide.
 chatgpt_productivity_bot.py: Python file containing functions used in main script, and libraries needed.
 main.py: Script for user to run and use tool.
+key.txt - not included, but you must provide a text file with your API key.
 
 -chatgpt_productivity_bot.py uses a key to access the OpenAI API from an ignored file, key.txt. Please load
 your file replacement to access the API. In addition, ensure all libraries specified at the top of the file
