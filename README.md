@@ -16,6 +16,7 @@
 ## User Guide: Getting Started
 
 - **Welcome!** This tool is designed to help you formulate a plan based on what you want to accomplish. Start off by ensuring all program files are downloaded, and run main.py to launch the prompt in the command line.
+- When you download the file, you will want to have a key.txt file that includes your API key. This will be used to access the API.
 - The main file  will ask you for a few inputs. It will ask you what your goal is, along with how many days you want to work on it, and any additional information you can provide. When it asks for additional information, be as specific as you like! If you have preferences for how often you want a particular type of task will occur (for example, you are training for a 5k, and you prefer to run 3 times a week and in the mornings, or you want to incorporate strength training), please specify that if you wish.
 - After providing your input, the tool will give you a preview of the tasks it generated, and will ask you if you want to save the detailed output to a csv file for your viewing and use.
 - If you choose to save the CSV file, note that you can certainly use the file for personal use in any way you see fit, but the file is also specifically designed to be imported into Google Calendar. If you do so, the events will be populated in your calendar, and you will be able to adjust them in any way you would like.
