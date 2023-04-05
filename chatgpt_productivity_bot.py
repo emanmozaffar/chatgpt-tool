@@ -8,7 +8,7 @@ import csv
 # For more information, please refer to the README document located in
 # this repository.
 
-# Use key to access API
+# Use key to access API - make sure you have key file saved
 openai.api_key = open("key.txt", "r").read().strip('\n')
 
 def generate_action_plan(prompt):
