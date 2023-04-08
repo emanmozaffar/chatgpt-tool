@@ -1,0 +1,8 @@
+Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private
+Set Goal,2023-04-05,8:00 AM,2023-04-05,9:00 AM,False,Set goal to run 5k in under 25 min,,True
+Create Training Plan,2023-04-06,9:00 AM,2023-04-06,10:00 AM,False,"Create training plan with endurance and strength workouts, plan for recovery days",,True
+Start Training,2023-04-07,7:00 AM,2023-04-07,8:00 AM,False,Begin training with 30 min run at current pace,,True
+Incorporate Strength Training,2023-04-13,7:00 AM,2023-04-13,8:00 AM,False,Add strength training exercises to workout regimen,,True
+Practice Sprints,2023-04-20,7:00 AM,2023-04-20,8:00 AM,False,Incorporate sprint intervals into training,,True
+Rest Days,2023-04-26,All Day,2023-04-26,All Day,True,Take a day off to allow for recovery and reduce risk of injury,,True
+Run 5k,2023-05-25,8:00 AM,2023-05-25,9:00 AM,False,Compete in 5k race with goal to finish in under 25 minutes,,True
